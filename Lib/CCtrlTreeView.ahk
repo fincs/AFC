@@ -39,7 +39,7 @@ class CCtrlTreeView extends CControl
 	{
 		this._SelectTV()
 		if not ptr := TV_Add(name, parent ? parent.__Handle : 0, options)
-			thnode Exception("TV_Add()", -1) ; Short msg since so rare.
+			throw Exception("TV_Add()", -1) ; Short msg since so rare.
 		return this.Nodes[ptr] := new CCtrlTreeView.Node(ptr, this, parent)
 	}
 	
