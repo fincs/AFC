@@ -2,4 +2,5 @@
 *.bak
 *.exe
 *.dll
+*.zip
 /Lib/AFC-doc/

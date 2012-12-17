@@ -356,6 +356,10 @@ class CCtrlTreeView extends CControl
 	}
 	
 	/*!
+		End of class
+	*/
+	
+	/*!
 		Method: OnDoubleClick(oCtrl, node)
 			Called when the user double-clicks a node.
 		Parameters:
@@ -512,10 +516,6 @@ class CCtrlTreeView extends CControl
 		__CCtrlTreeView_OnEvent_-:
 		return oCtrl.OnCollapse.(this, oCtrl, oCtrl.Nodes[eventInfo])
 	}
-	
-	/*!
-		End of class
-	*/
 	
 	class Enumerator
 	{
